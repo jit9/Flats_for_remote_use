@@ -8,5 +8,7 @@ Instructions:
         
    master_tod.py calls tod_flats_anal.py which utilizes the executable flatFull.so which was compiled from C code.
    
+You do not need to call the other two scripts -- they are used by master_tod.py.
+
 Output is entirely to the screen, and consists of a listing of the "bad" detectors according to the Flats algorithm plus a few other descriptives of this particular TOD.  
 
